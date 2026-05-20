@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ARGELYSYS Enterprise Solutions</title>
+        <meta
+            name="description"
+            content="ARGELYSYS Enterprise Solutions crea experiencias digitales, plataformas empresariales y software a medida con una ejecucion elegante, precisa y escalable."
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+            rel="stylesheet"
+        >
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+    </head>
+    <body class="argelysys-body">
+        <div class="page-shell">
+            <div class="ambient ambient-a" aria-hidden="true"></div>
+            <div class="ambient ambient-b" aria-hidden="true"></div>
+            <div class="ambient ambient-c" aria-hidden="true"></div>
+
+            <header class="topbar">
+                <a href="#inicio" class="brand-mark" aria-label="ARGELYSYS Enterprise Solutions">
+                    <span class="brand-symbol">A</span>
+                    <span class="brand-copy">
+                        <strong>ARGELYSYS</strong>
+                        <small>Enterprise Solutions</small>
+                    </span>
+                </a>
+
+                <nav class="topnav" aria-label="Principal">
+                    <a href="#servicios">Servicios</a>
+                    <a href="#proceso">Proceso</a>
+                    <a href="#valor">Valor</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+
+                <a href="#contacto" class="button button-outline">Agendar conversacion</a>
+            </header>
+
+            <main id="inicio">
+                <section class="hero section">
+                    <div class="hero-copy reveal">
+                        <p class="eyebrow">Desarrollo premium para empresas que exigen precision</p>
+                        <h1>
+                            Construimos software elegante,
+                            <span>dinamico y estrategico</span>
+                            para marcas que quieren avanzar con claridad.
+                        </h1>
+                        <p class="hero-text">
+                            En ARGELYSYS Enterprise Solutions diseniamos plataformas, productos digitales y ecosistemas
+                            web con una estetica sobria, una arquitectura escalable y una experiencia de usuario que transmite confianza.
+                        </p>
+
+                        <div class="hero-actions">
+                            <a href="#contacto" class="button button-primary">Impulsar mi proyecto</a>
+                            <a href="#servicios" class="button button-ghost">Explorar capacidades</a>
+                        </div>
+
+                        <ul class="metrics" aria-label="Indicadores clave">
+                            <li>
+                                <strong>UX + Ingenieria</strong>
+                                <span>Diseno funcional con ejecucion tecnica de alto nivel.</span>
+                            </li>
+                            <li>
+                                <strong>Arquitectura escalable</strong>
+                                <span>Soluciones pensadas para crecer sin perder rendimiento.</span>
+                            </li>
+                            <li>
+                                <strong>Entrega con detalle</strong>
+                                <span>Interfaces refinadas, limpias y orientadas a negocio.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="hero-visual reveal" data-parallax-wrapper>
+                        <div class="hero-panel glass-card" data-parallax depth="18">
+                            <div class="panel-head">
+                                <span class="panel-kicker">Enterprise Build</span>
+                                <span class="status-pill">Live Vision</span>
+                            </div>
+
+                            <div class="signal-grid">
+                                <article class="signal-card">
+                                    <span>Experiencia</span>
+                                    <strong>Minimalismo con presencia</strong>
+                                    <p>Fondos ligeros, profundidad precisa y contrastes premium.</p>
+                                </article>
+                                <article class="signal-card signal-highlight">
+                                    <span>Movimiento</span>
+                                    <strong>Animaciones sutiles</strong>
+                                    <p>Transiciones fluidas, reflejos suaves y neon difuminado controlado.</p>
+                                </article>
+                                <article class="signal-card">
+                                    <span>Estrategia</span>
+                                    <strong>Software con narrativa</strong>
+                                    <p>Un sistema visual que eleva la percepcion de la marca.</p>
+                                </article>
+                            </div>
+
+                            <div class="hero-wave" aria-hidden="true">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </div>
+
+                        <div class="floating-note glass-card" data-parallax depth="-10">
+                            <p>Paleta premium</p>
+                            <strong>Navy + Grafito + Dorado suave</strong>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section showcase reveal">
+                    <div class="showcase-shell glass-card">
+                        <div class="showcase-copy">
+                            <p class="eyebrow">Showcase visual</p>
+                            <h2>Una presencia mas viva, mas refinada y con mejor ritmo visual.</h2>
+                            <p class="showcase-text">
+                                Este carrusel presenta la personalidad de ARGELYSYS con escenas visuales que mezclan
+                                estrategia, elegancia y tecnologia en una narrativa mas rica en color.
+                            </p>
+                        </div>
+
+                        <div class="carousel" data-carousel>
+                            <div class="carousel-track">
+                                <article class="carousel-slide is-active" data-slide>
+                                    <div class="slide-surface slide-strategy">
+                                        <span class="slide-tag">Strategic Systems</span>
+                                        <h3>Software empresarial con una lectura visual mas solida.</h3>
+                                        <p>Bloques con profundidad, dorado suave y capas azuladas que elevan la percepcion de marca.</p>
+                                    </div>
+                                </article>
+                                <article class="carousel-slide" data-slide>
+                                    <div class="slide-surface slide-experience">
+                                        <span class="slide-tag">Premium Experience</span>
+                                        <h3>Interfaces dinamicas con acentos de color y brillo controlado.</h3>
+                                        <p>Transiciones fluidas, iluminacion elegante y composicion coherente para entornos corporativos.</p>
+                                    </div>
+                                </article>
+                                <article class="carousel-slide" data-slide>
+                                    <div class="slide-surface slide-execution">
+                                        <span class="slide-tag">Execution Layer</span>
+                                        <h3>Tecnologia presentada con una narrativa mas sofisticada.</h3>
+                                        <p>Un lenguaje visual que combina confianza, detalle y una energia contemporanea.</p>
+                                    </div>
+                                </article>
+                            </div>
+
+                            <div class="carousel-controls">
+                                <button class="carousel-button" type="button" data-carousel-prev aria-label="Anterior">Prev</button>
+                                <div class="carousel-dots" aria-label="Indicadores del carrusel">
+                                    <button class="carousel-dot is-active" type="button" data-carousel-dot aria-label="Slide 1"></button>
+                                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Slide 2"></button>
+                                    <button class="carousel-dot" type="button" data-carousel-dot aria-label="Slide 3"></button>
+                                </div>
+                                <button class="carousel-button" type="button" data-carousel-next aria-label="Siguiente">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="servicios" class="section">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">Capacidades clave</p>
+                        <h2>Servicios pensados para empresas que buscan una presencia digital impecable.</h2>
+                    </div>
+
+                    <div class="cards-grid">
+                        <article class="service-card glass-card reveal">
+                            <span>01</span>
+                            <h3>Landing pages de alto impacto</h3>
+                            <p>Experiencias web memorables, rapidas y visualmente refinadas para presentar valor con contundencia.</p>
+                        </article>
+                        <article class="service-card glass-card reveal">
+                            <span>02</span>
+                            <h3>Plataformas empresariales</h3>
+                            <p>Dashboards, sistemas internos y herramientas de operacion con claridad, seguridad y escalabilidad.</p>
+                        </article>
+                        <article class="service-card glass-card reveal">
+                            <span>03</span>
+                            <h3>Diseno UX/UI orientado a marca</h3>
+                            <p>Interfaces coherentes con el posicionamiento de la empresa y decisiones de experiencia respaldadas por negocio.</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="proceso" class="section split-section">
+                    <div class="section-heading reveal">
+                        <p class="eyebrow">Metodo</p>
+                        <h2>Un proceso claro para convertir ideas exigentes en productos digitales listos para crecer.</h2>
+                    </div>
+
+                    <div class="timeline">
+                        <article class="timeline-item glass-card reveal">
+                            <strong>Diagnostico</strong>
+                            <p>Entendemos contexto, marca, objetivos y oportunidades reales antes de disenar o desarrollar.</p>
+                        </article>
+                        <article class="timeline-item glass-card reveal">
+                            <strong>Direccion visual</strong>
+                            <p>Traducimos la identidad en una experiencia elegante, sobria y contemporanea.</p>
+                        </article>
+                        <article class="timeline-item glass-card reveal">
+                            <strong>Desarrollo fino</strong>
+                            <p>Construimos con foco en performance, mantenibilidad y sensacion premium en cada detalle.</p>
+                        </article>
+                    </div>
+                </section>
+
+                <section id="valor" class="section spotlight reveal">
+                    <div class="spotlight-copy">
+                        <p class="eyebrow">Por que ARGELYSYS</p>
+                        <h2>Porque una solucion empresarial no solo debe funcionar: tambien debe proyectar autoridad.</h2>
+                        <p>
+                            Nuestra propuesta combina identidad visual, ingenieria de producto y una ejecucion cuidada
+                            para que cada pantalla refuerce la calidad de tu empresa.
+                        </p>
+                    </div>
+
+                    <div class="spotlight-points">
+                        <div class="mini-stat glass-card">
+                            <strong>Elegancia funcional</strong>
+                            <span>Diseno que luce premium sin sacrificar claridad ni rendimiento.</span>
+                        </div>
+                        <div class="mini-stat glass-card">
+                            <strong>Motion preciso</strong>
+                            <span>Animaciones con intencion, transiciones limpias y profundidad sutil.</span>
+                        </div>
+                        <div class="mini-stat glass-card">
+                            <strong>Presencia corporativa</strong>
+                            <span>Una narrativa visual sobria que comunica confianza desde el primer vistazo.</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="contacto" class="section cta-band glass-card reveal">
+                    <div>
+                        <p class="eyebrow">Siguiente paso</p>
+                        <h2>Hagamos que ARGELYSYS Enterprise Solutions proyecte el nivel que merece.</h2>
+                    </div>
+                    <a href="mailto:contacto@argelysys.com" class="button button-primary">contacto@argelysys.com</a>
+                </section>
+            </main>
+        </div>
+    </body>
+</html>
