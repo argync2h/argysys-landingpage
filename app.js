@@ -1,5 +1,14 @@
 document.documentElement.classList.add('js-ready');
 
+const reflection = document.querySelector('.cursor-reflection');
+
+if (reflection) {
+    window.addEventListener('pointermove', (event) => {
+        document.documentElement.style.setProperty('--reflection-x', `${event.clientX - 170}px`);
+        document.documentElement.style.setProperty('--reflection-y', `${event.clientY - 170}px`);
+    });
+}
+
 const scrollToCurrentHash = () => {
     if (!window.location.hash) {
         return;
